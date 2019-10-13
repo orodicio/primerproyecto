@@ -1,0 +1,163 @@
+/*Pagina web*/
+/*Pagina web*/
+/*Contenedor del section y aside*/
+#cuerpoEntero{
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100;
+  display: block;
+}
+/*Fondo de la section*/
+.fondoTexto{
+  position: relative;
+  float: left;
+  border: 0.7rem double rgba(231, 226, 226, 0.877);
+  border-radius: 2%;
+  width: 50%;
+  height: 80%;
+  background-color: rgba(213, 214, 211, 0.61);
+  margin: 1% 0% 1% 10%;
+}
+/*Cuerpo de la section*/
+#texto{
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+/*Bloques de texto/foto de la section*/
+.bloque{
+  position: relative;
+  float: left;
+  width: 96%;
+  height: auto;
+  color: #3c6752;
+  margin-left: 2.3%;
+}
+/*titulo del bloque*/
+.titulotexto{
+  position: relative;
+  float: left;
+  width: 61%;
+  height: auto;
+  font-size: 33px;
+  text-align: center;
+  background-color: rgba(80, 136, 108, 0.65);
+  color: rgba(231, 226, 226, 0.877);
+  border-radius: 3%;
+}
+/*textos de los bloques*/
+.info1{
+  position: relative;
+  float: left;
+  width: 63%;
+  height: auto;
+  font-size: 22px;
+  margin-top: 3%;
+}
+.info2{
+  position: relative;
+  float: left;
+  width: 63%;
+  height: auto;
+  font-size: 22px;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.info3{
+  position: relative;
+  float: left;
+  width: 63%;
+  height: auto;
+  font-size: 22px;
+  margin-top: 3%
+}
+/*Fotos de la section*/
+ .fotos{
+  position: relative;
+  float: left;
+  width: fit-content;
+  margin-top: -3.5%;
+}
+.fotos2{
+  position: relative;
+  float: left;
+  width: fit-content;
+  margin-top: -1.5%;
+}
+.estiloFotos{
+  border: 0.4rem double rgba(231, 226, 226, 0.877);
+  border-radius: 8%;
+}
+/*Estilo del separador*/
+hr{
+  border: 2px solid rgba(231, 226, 226, 0.877);
+  width: 93%;
+  margin-right: 4%;;
+}
+/*Estilo del aside*/
+ aside{
+  position: relative;
+  float: left;
+  border: 0.7rem double rgba(231, 226, 226, 0.877);
+  border-radius: 2%;
+  width: 28%;
+  background-color: rgba(213, 214, 211, 0.61);
+  margin-left: 1%;
+  text-align: center;
+  margin-top: 1%;
+}
+/*Titulo del aside*/
+ .cabeceraEnlaces{
+  position: relative;
+  float: left;
+  width: 98%;
+  height: auto;
+  font-size: 46px;
+  color: #3c6752;
+  margin-bottom: -2%;
+  margin-top: 2%;
+  background-color: rgba(80, 136, 108, 0.65);
+  color: rgba(231, 226, 226, 0.877);
+  border-radius: 3%;
+  margin-left: 1%;
+  padding-top: 1%;
+}
+/*Estilos de la bloques de enlaces del aside*/
+.bloquenlaces{
+  position: relative;
+  float: left;
+  width: 97%;
+  height: auto;
+  color: #3c6752;
+  margin-bottom: 8%;
+  margin-top: 4.7%;
+}
+.tituloenlaces{
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  font-size: 46px;
+  color: #3c6752;
+  margin-bottom: 2%;
+  margin-top: 2%;;
+}
+.enlaces{
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  font-size: 25px;
+}
+.cita{
+  font-style: italic;
+}
+/*Fuente del titulo general*/
+@font-face {
+font-family: titulo;
+  src: url(../fuentes/Mallie_PersonalUse.otf);
+}

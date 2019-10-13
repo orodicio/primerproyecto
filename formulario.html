@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Head con los faviconos -->
+
+<head>
+  <meta charset="utf-8" />
+  <title>Contactar</title>
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/formulario.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <article>
+    <!-- Cabecera -->
+    <header>
+      <div id="titulo">
+        <h1>Contactar</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html" )>Inicio</a></li>
+          <li><a href="./misproyectos.html">Mis proyectos</a></li>
+          <li><a href="#">Mis estudios</a>
+            <ul>
+              <li><a href="./secundarios.html">Secundarios</a></li>
+              <li><a href="./universitarios.html">Universitarios</a></li>
+              <li><a href="./postgrado.html">Postgrado</a></li>
+              <li><a href="./fp.html">FP</a></li>
+            </ul>
+          </li>
+          <li><a href="./misaficiones.html">Mis aficiones</a></li>
+          <li><a href="./formulario.html">Contactar</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Empieza la section -->
+    <section>
+      <!-- Fondo del cuerpo -->
+      <div class="fondoTexto">
+        <!-- Cuerpo -->
+        <div id="texto">
+          <!-- Titulo -->
+          <div class="titulosTexto">Para contactar rellena el siguiente formulario:</div>
+          <!-- Formulario -->
+          <div class="formulario">
+            <form>
+              <table>
+                <tr>
+                  <td>Nombre:</td>
+                  <td><input type="text" name="firstname" size="30"></td>
+                </tr>
+                <tr>
+                  <td>Apellidos:</td>
+                  <td><input type="text" name="lastname" size="30"></td>
+                </tr>
+                <tr>
+                  <td colspan="2">sexo:</td>
+                </tr>
+                <tr>
+                  <td class="right"><input type="radio" name="gender" value="male" checked></td>
+                  <td>Hombre</td>
+                </tr>
+                <tr>
+                  <td class="right"><input type="radio" name="gender" value="female"></td>
+                  <td>Mujer</td>
+                </tr>
+                <tr>
+                  <td class="right"><input type="radio" name="gender" value="other"></td>
+                  <td>Otro</td>
+                </tr>
+                <tr>
+                  <td>E-Mail:</td>
+                  <td><input type="email" name="email" size="30"></td>
+                </tr>
+                <tr>
+                  <td colspan="2">Escribe a continuación tus comentarios:</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="center"><textarea name="comentarios" rows="10" cols="40"></textarea></td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="center"><input type="submit" value="Enviar"></td>
+                </tr>
+              </table>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </article>
+</body>
+
+</html>

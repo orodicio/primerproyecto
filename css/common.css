@@ -1,0 +1,140 @@
+/*Toda esta parte es para resetear mi css*/
+/*Toda esta parte es para resetear mi css*/
+/*Toda esta parte es para resetear mi css*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Cabecera de mis paginas web
+Empieza aquí*/
+/*Características generales:body y article*/
+
+body{
+  margin: 0px auto;
+  padding:0%;
+  background-size: cover;
+  background-image: url(..//images/fondo.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+article{
+  position: relative;
+  height: 100%;
+  float: left;
+  width: 100%;
+}
+/*Cabecera*/
+header{
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+}
+/*titulo*/
+#titulo{
+  text-align: center;
+  font-family: titulo;
+  color: rgba(231, 226, 226, 0.877);
+  font-size: 90px;
+  margin: 0.5% 0% 0.5% 2%;
+}
+/*menu*/
+nav{  
+ position: relative;
+ background-color: rgba(231, 226, 226, 0.877);
+ margin-left: 10%;
+ margin-right: 9%;
+}
+nav ul{
+  list-style: none;
+  padding: 0;
+  font-size: 35px;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color:#50886c;
+  display:inline-block;
+  padding:1.5rem;
+  text-decoration: none;  
+}
+nav ul li a:hover{
+background-color: rgba(170, 100, 125, 0.22);
+}
+nav ul li ul {
+  display: none;
+  position: absolute;
+  width: fit-content;
+  padding: 0;
+  background-color: rgb(231, 226, 226,0.877);
+  z-index: 100;
+  color:#50886c;
+  }
+
+nav ul li ul li {
+  position: relative;
+  display: block;
+  }
+nav ul li ul li a {
+    color:#50886c;
+    display:block;
+    padding:0.9rem;
+    text-decoration: none; 
+}  
+nav ul li ul li a:hover {
+    background-color: rgba(170, 100, 125, 0.22);
+}
+
+nav ul li:hover > ul {
+    display:block;
+}
+   
+
+   

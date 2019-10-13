@@ -1,0 +1,100 @@
+/*Pagina web*/
+/*Pagina web*/
+/*empiezan nuestras secciones*/
+section{
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100;
+  display: block;
+    }
+/*fondo de las ection*/
+.fondoTexto{
+  position: relative;
+  float: left;
+  border: 0.7rem double rgba(231, 226, 226, 0.877);
+  border-radius: 2%;
+  width: 80%;
+  height: 100%;
+  background-color: rgba(213, 214, 211, 0.61);
+  margin: 1% 0% 1% 10%;
+  padding-top: 2%;
+}
+/*cuerpo de la section*/
+#cuerpo{
+  position: relative;
+  float: left;
+  width: 100%;
+}
+/*texto en si*/
+ #texto{
+  position: relative;
+  float: left;
+  width: 96%;
+  font-size: 15px;
+  color: #3c6752;
+  left: 2%;
+} 
+/*Desarrollo de la galeria de imagenes*/
+#fotos{
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+}
+li .min	{
+	width: 75px;
+	height: 64px;
+	padding: 6px 20px 20px 7px;
+	}
+#titulogaleria{
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(80, 136, 108, 0.65);
+  color: rgba(231, 226, 226, 0.877);
+  border-radius: 3%;
+  font-size: 33px;
+  width: 75%;
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-bottom:1%;
+}
+#borde{
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  left: 9%;
+}
+#fondogaleria{
+  width: fit-content;
+  height: auto;
+  position: relative;
+  float: left;
+  left: 25%;
+}
+.cat{
+	list-style-type: none;
+	margin: 0 0 25px 10px; 
+	padding: 0px; 
+	float:left;
+	}
+.max{
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 17%;
+  margin-left: 346px;
+  z-index: 100;
+}	
+a:hover .max{
+	visibility: visible;
+}
+/*fuente del titulo*/
+@font-face{
+  font-family: titulo;
+  src: url(../fuentes/Mallie_PersonalUse.otf);
+}
+
+
+
